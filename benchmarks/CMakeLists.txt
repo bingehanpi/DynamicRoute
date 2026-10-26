@@ -1,0 +1,5 @@
+add_executable(dynamic_route_benchmark static_benchmark.cpp)
+target_link_libraries(dynamic_route_benchmark PRIVATE DynamicRoute::core)
+
+add_executable(dynamic_route_dynamic_benchmark dynamic_benchmark.cpp)
+target_link_libraries(dynamic_route_dynamic_benchmark PRIVATE DynamicRoute::core)

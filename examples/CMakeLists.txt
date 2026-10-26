@@ -1,0 +1,2 @@
+add_executable(dynamic_route_static_visualization static_visualization.cpp)
+target_link_libraries(dynamic_route_static_visualization PRIVATE DynamicRoute::core)
